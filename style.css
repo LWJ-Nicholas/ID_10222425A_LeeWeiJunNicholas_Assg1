@@ -1,0 +1,95 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+
+nav{
+  position: fixed;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #347AB8;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #fff;
+    color:#347AB8;
+  }
+
+#homepage{
+    color: white;
+    background-image: url("Bg_1.jpg"), linear-gradient(rgba(0,0,0,0.36),rgba(0,0,0,0.36));
+    background-blend-mode: overlay;
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#hello{
+    font-size: 100px;
+    font-family: Pristina;
+    text-align: center;
+    margin: 0px;
+}
+
+#intro{
+    font-size: 80px;
+    font-family: Arial Rounded MT;
+    text-align: center;
+    margin: 0px;
+}
+
+#welcome{
+    font-size: 50px;
+    font-family: Monotype Corsiva;
+    text-align: center;
+    margin: 0px;
+}
+
+#about-1{
+  color: white;
+  background-image: url("Bg_2.jpg"), linear-gradient(rgba(0,0,0,0.36),rgba(0,0,0,0.36));
+  background-blend-mode: overlay;
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#about-1 > p{
+  font-family: sans-serif;
+  font-size: 40px;
+}
+
+#about-1 > h4{
+  font-family: Harlow Solid;
+  font-size: 70px;
+}
+
+#description{
+  background-color: rgba(0,0,0,0.5);
+}
