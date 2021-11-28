@@ -8,25 +8,74 @@
         <link rel="stylesheet" href="style.css" type="text/css">
     </head>
     <body>
-    <nav id=navbar class=navbar>
-        <ul class=navbar>
-            <li><a>Nicholas' Portfolio</a></li>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Work</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
+    <nav class=navbar>
+        
+            <div class="title">Nicholas' Portfolio</div>
+            <div class="navbar-links">
+                <ul>
+                    <li class="internal-links"><a href="#homepage">Home</a></li>
+                    <li class="internal-links"><a href="#about-1">About</a></li>
+                    <li class="internal-links"><a href="#work">Work</a></li>
+                    <li class="internal-links"><a href="#contact">Contact</a></li>
+                    <li class="social"><a href="https://www.facebook.com/" target="_blank"><img class="logo" src="Social_fb.jpg"></a></li>
+                    <li class="social"><a href="https://www.linkedin.com/in/wei-jun-nicholas-lee-83198920b/" target="_blank"><img class="logo" src="Social_in.jpg"></a></li>
+                    <li class="social"><a href="https://twitter.com/?lang=en-sg" target="_blank"><img class="logo" src="Social_tt.jpg"></a></li>
+                </ul>
+            </div>
     </nav>
-    <div id=homepage>
+    <div id="homepage">
         <h1 id=hello>Hello!</h1>
         <h2 id=intro>I am Nicholas Lee</h2>
         <h3 id=welcome>Welcome to my personal portfolio page</h3>
     </div>
-    <div id=about-1>
-        <div id=description>
+
+    <div id="about-1">
+        <div id="potrait">
+            <img class="selfie-1" src="Selfie_1.jpg">
+        </div>
+        <div id="description">
         <h4>About Me</h4>
-        <p>I am currently a year one student at Ngee Ann Polytechnic pursuing a Diploma in Information Technology. I am passionate in programming.
-        Since young, I had been fascinated by the advances in technology and the convenience that it brings to people. Ever since, I had aspired to become a software engineer one day, and would like to play a part in bringing innovative solutions and positive changes to the world through the use of technology.</p>
+        <p>I am currently a year one student at Ngee Ann Polytechnic pursuing a Diploma in Information Technology. I am passionate in programming and I am a great problem solver.</p>
+        <p>Since young, I had been fascinated by the advances in technology and the convenience that it brings to people. Ever since, I had aspired to become a software engineer one day, and would like to play a part in bringing innovative solutions and positive changes to the world through the use of technology.</p>
+        <p>My hobbies are playing chess and gardening, I believe that playing chess keeps my mind sharp and improves my problem solving and pattern reconation ability.</p>
+        </div>
+    </div>
+    <div id="about-2">
+        
+        <div class="sections" id="testimonals">
+            <h4>Testimonals</h4>
+            <p>"Nicholas displayed a good team spirit and was a dedicated member of the Media Society from 2018 to 2020. Throughout these three years, he contributed regularly to the society's activity and was always ready to carry out tasks assigned to the best of his ability. He showed commitment in perfecting his computing skills in video-scripting and video-editing. Nicholas' strength in resilience and perfection would stand him in good stead with any organisation he joins in the future" 
+            </p>
+            <p>~ Mdm Tan Lin</p>
+        </div>
+        <div class="sections" id="skills">
+            <p></p>
+            <h4>Skills</h4>
+            <p></p>
+            <div id="html5"> <img src="html5.jpg"> <p>HTML5</p></div>
+            <div id="css"> <img src="css.jpg"> <p>CSS</p></div>
+            <div id="js"> <img src="js.jpg"> <p>JavaScript</p></div>
+            <div id="sql"> <img src="sql.jpg"> <p>SQL</p></div>
+            <div id="cs"> <img src="cs.jpg"> <p>C#</p></div>
+            <div id="py"> <img src="py.jpg"> <p>Python</p></div>
+            <div id="bi"> <img src="bi.jpg"> <p>Power BI</p></div>
+            <div id="ai"> <img src="ai.jpg"> <p>Adobe Illustrator</p></div>
+            <div id="ps"> <img src="ps.jpg"> <p>Adobe Photoshop</p></div>
+        </div>
+        <div class="sections" id="schools">
+            <h4>My Education</h4>
+            <div id="hws"> <img src="hws.jpg"> </div>
+            <div><p>Hong Wen School<br>
+                (2011 - 2016)<br>
+                PSLE Certificate</p></div><div></div>
+            <div id="yyss"> <img src="yyss.jpg"> </div>
+            <div><p>Yuying Secondary School<br> 
+                (2017-2020)<br>
+                GCE'O'-Levels Certificate</p></div><div></div>
+            <div id="np"> <img src="np.jpg"> </div>
+            <div><p>Ngee Ann Polytechnic<br> 
+                (2021 - 2024)<br>
+                Diploma In Information Technology</p></div><div></div>
         </div>
     </div>
         <script src="script.js" async defer></script>
