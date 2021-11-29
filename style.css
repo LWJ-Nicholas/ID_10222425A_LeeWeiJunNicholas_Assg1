@@ -6,6 +6,7 @@ body, html {
   
   *{
     box-sizing: border-box;
+    scroll-behavior: smooth;
   }
 
 
@@ -360,4 +361,103 @@ ul {
 #np p{
   grid-column-start: 2;
   grid-column-end: 4;
+}
+
+#work {
+  background-image: url("Bg_4.jpg"), linear-gradient(rgba(255, 255, 255, 0.5),rgba(255,255,255,0.5));
+  background-blend-mode: overlay;
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-row-gap: 15px;
+}
+
+#projects{
+  grid-area: "title";
+  font-size: 60px;
+  font-family: Harlow Solid;
+  color: #C79E56;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  margin-bottom: -60px;
+}
+
+.projects img{
+  max-width: 220px;
+  height: auto;
+  margin-left: 100px;
+  margin-top: -30px;
+  display: block;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+}
+
+.projects p{
+  display: block;
+  text-align: center;
+  font-size: large;
+  font-family: Segoe UI;
+  color: white;
+  background-color: #514C4C;
+  block-size: inherit;
+  overflow: hidden;
+  padding-bottom: 20px;
+  padding-top: 60px;
+  margin-left: 120px;
+  margin-right: 80px;
+  margin-top: -50px;
+}
+
+#contact {
+  background-color: #E4E4E4;
+  background-blend-mode: overlay;
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: 1fr 1px 1fr;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 100px 20px;
+  font-size: 30px;
+}
+
+#message #form{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.field > p{
+  font-size: 15px;
+  margin: 0;
+  padding: 2px 5px;
+}
+
+#submitbtn{
+  margin-left: 10px;
+}
+
+.field{
+  padding: 5px;
+}
+
+#info > h4{
+  padding: 5px 40px;
+}
+
+#info > ul{
+  list-style: none;
+  text-align: start;
+
+  font-size: 20px;
+}
+
+#email-me{
+  margin-left:40px;
+  margin-right: auto;
 }
