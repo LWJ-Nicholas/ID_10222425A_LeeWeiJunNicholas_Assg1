@@ -1,0 +1,20 @@
+
+div{
+  margin: 50px 250px;
+  text-align: center;
+}
+
+button{
+font-size: 30px;
+}
+
+h1{
+  font-family: Berlin Sans FB;
+  font-size: 60px;
+}
+
+h2{
+  font-family: Cascadia Mono;
+  font-size: 40px;
+  padding: 10px;
+}
