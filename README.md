@@ -1,14 +1,11 @@
 # ID_10222425A_LeeWeiJunNicholas_Assg1
 
-One or two paragraphs providing an overview of your project. Tell us about your project.
-
 In this project, I have desgined a personal portfolio webpage where I would present myself to others and hopefully impress my recruiters. This site consists of a short introduction about myself, my educational history, my skills well as some of the amazing projects that I have done. I have also included my contact at the end of the site so that others can find me easily if they ever want to hire me or work together on a project.
 
 Throughout the webpage, I have incorporated the key design princapals such as the color schemes, layout and typography. I have also implmented a few intresting interactions and animation with the help of javascript and css.
 
 
 ## Design Process
-Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 The main audience of this site are my potential employers as well as people with the same intrests, looking for collabaration on a project. The aim of the webpage is to showcase myself to them and and to create a platform where they can reach out to me. While desigining the webpage, I have researched intensively on the designs of other portfolio sites as well as some of the desgins that I came up by myself in the past, combined with extensive planning and countless trail and error, I have finally arrived at this desgin.
 
@@ -53,16 +50,16 @@ Link to my wireframe:
 - <a href="https://visual-studio-code.en.softonic.com/download?utm_source=bing&utm_medium=paid&utm_campaign=Bing_Global_DSA_Test&msclkid=ff88de179b1213d17f03bfbd934b4305" target="_blank">Visual Studio Code</a>
   - I used VS Code as an IDE to program my webpage
 
-- <a href="#" target="_blank">HTML</a>
+- <a href="https://simple.wikipedia.org/wiki/HTML" target="_blank">HTML</a>
   - I used HTML to program my webpage
 
-- <a href="#" target="_blank">CSS</a>
+- <a href="https://en.wikipedia.org/wiki/CSS" target="_blank">CSS</a>
   - I used CSS to add beautiful desgins to my site
 
-- <a href="#" target="_blank">JavaScript</a>
+- <a href="https://simple.wikipedia.org/wiki/JavaScript#:~:text=From%20Simple%20English%20Wikipedia%2C%20the%20free%20encyclopedia%20JavaScript,currently%20the%20most%20popular%20programming%20language%20in%20use." target="_blank">JavaScript</a>
   - I used JavaScript to program interations in the webpage
 
-- <a href="#" target="_blank">JQuery</a>
+- <a href="https://en.wikipedia.org/wiki/JQuery" target="_blank">JQuery</a>
   - I used JQuery to simplify DOM manipulation
 
 
