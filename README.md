@@ -16,7 +16,7 @@ I have asked for feedback from others and everyone felt that this design looks a
 
 The layout of the webpage is neat and I have made clever use of the spaces provided so as to let the information and messages that I want to convey to my audience be conveyed in a clear and consise manner. I made use of some of the additional features to draw the attention of my audiences to the key details that they would be looking for in my website. I have also choosen fonts and font sizes that are easily readable while adding to the asthetics on my webpage.
 
-### user stories:
+### User Stories:
 - I want to navigate through the different sections of a webpage quickly (navbar)
 - I want to be able to easily read the words off a webpage (font and size)
 - I want to be able to have a way to contact the person who made the webpage (footer/contact/social media)
@@ -99,9 +99,9 @@ Clicking the submit button will redirect the user to a thankyou page where there
 ## Credits
 
 ### Content
-None of the text are copied from external sources
-None of the font styles are taken from online sources
-Testimonals are transcribed from my personal School Graduation Certificate and past year report books
+- None of the text are copied from external sources
+- None of the font styles are taken from online sources
+- Testimonals are transcribed from my personal School Graduation Certificate and past year report books
 
 ### Media
 The background images I have used in this project is obtained from:
@@ -113,8 +113,8 @@ The background images I have used in this project is obtained from:
 Images not mentioned are owned by myself.
 
 ### Acknowledgements
-I have taken reference for the design of the navigation bar from https://youtu.be/At4B7A4GOPg
-I have taken reference for the animation of the navigation bar from https://www.w3schools.com/howto/howto_js_navbar_slide.asp
-I received inspiration for the layout of the webpage and other elements such as footer and color schemes and placement from my previous projects
+- I have taken reference for the design of the navigation bar from https://youtu.be/At4B7A4GOPg
+- I have taken reference for the animation of the navigation bar from https://www.w3schools.com/howto/howto_js_navbar_slide.asp
+- I received inspiration for the layout of the webpage and other elements such as footer and color schemes and placement from my previous projects
 
 
